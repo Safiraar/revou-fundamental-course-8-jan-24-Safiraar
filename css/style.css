@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #423ba5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: #5a5656;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#options {
+    margin-bottom: 20px;
+}
+
+.calculator {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.calculator img {
+    max-width: 100%;
+    height: auto;
+}
+
+.calculator-section {
+    margin-top: 10px;
+}
+
+#hasilLuasPersegi,
+#hasilKelilingPersegi {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#persegi h2, #PersegiPanjang h2 {
+    background-color: #5bc0de; /* Change the background color to your desired color */
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#options button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#PersegiPanjang {
+    display: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.calculator-section {
+    margin-top: 10px;
+}
+
+/* ... Additional styling for buttons and result display ... */
+.calculator-section button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
